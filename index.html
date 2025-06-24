@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thử Thách Logic Hàng Ngày</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>🧠 Thử Thách Logic Hàng Ngày</h1>
+            <p class="date">Ngày: <span id="current-date"></span></p>
+        </header>
+
+        <!-- Phần dành cho trẻ em -->
+        <section class="challenge-section">
+            <h2>🎯 Thử Thách Của Bé</h2>
+            <div class="challenge-container">
+                <div class="pattern-display">
+                    <div class="shape-sequence" id="shape-sequence">
+                        <!-- Các hình sẽ được tạo bằng JavaScript -->
+                    </div>
+                    <div class="question-mark">?</div>
+                </div>
+                
+                <div class="answer-options" id="answer-options">
+                    <!-- Các lựa chọn sẽ được tạo bằng JavaScript -->
+                </div>
+                
+                <div class="result" id="result"></div>
+                <button class="new-challenge-btn" onclick="generateNewChallenge()">Thử Thách Mới</button>
+            </div>
+        </section>
+
+        <!-- Phần dành cho bố mẹ -->
+        <section class="parent-section">
+            <h3>📋 Kịch Bản Cho Bố Mẹ</h3>
+            <div class="script-box">
+                <p><strong>Hướng dẫn:</strong></p>
+                <p id="parent-script">
+                    "Con nhìn này, có một dãy hình. Hãy quan sát kỹ xem có quy luật gì không. 
+                    Theo con, hình tiếp theo sẽ là gì nhỉ? Hãy bấm vào đáp án mà con nghĩ là đúng!"
+                </p>
+                <div class="tips">
+                    <p><strong>💡 Mẹo:</strong></p>
+                    <ul>
+                        <li>Khuyến khích bé quan sát kỹ trước khi chọn</li>
+                        <li>Nếu bé chọn sai, hãy giải thích quy luật một cách đơn giản</li>
+                        <li>Khen ngợi khi bé tìm ra đáp án đúng</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -3,55 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thử Thách Logic Hàng Ngày</title>
+    <title>Tử Vi 12 Cung Hoàng Đạo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <!-- Header -->
         <header>
-            <h1>🧠 Thử Thách Logic Hàng Ngày</h1>
+            <h1>🌟 Tử Vi 12 Cung Hoàng Đạo</h1>
             <p class="date">Ngày: <span id="current-date"></span></p>
         </header>
 
-        <!-- Phần dành cho trẻ em -->
-        <section class="challenge-section">
-            <h2>🎯 Thử Thách Của Bé</h2>
-            <div class="challenge-container">
-                <div class="pattern-display">
-                    <div class="shape-sequence" id="shape-sequence">
-                        <!-- Các hình sẽ được tạo bằng JavaScript -->
-                    </div>
-                    <div class="question-mark">?</div>
-                </div>
-                
-                <div class="answer-options" id="answer-options">
-                    <!-- Các lựa chọn sẽ được tạo bằng JavaScript -->
-                </div>
-                
-                <div class="result" id="result"></div>
-                <button class="new-challenge-btn" onclick="generateNewChallenge()">Thử Thách Mới</button>
+        <!-- Zodiac Selection -->
+        <section class="zodiac-selection">
+            <h2>🔮 Chọn Cung Hoàng Đạo Của Bạn</h2>
+            <div class="zodiac-grid" id="zodiac-grid">
+                <!-- Các cung hoàng đạo sẽ được tạo bằng JavaScript -->
             </div>
         </section>
 
-        <!-- Phần dành cho bố mẹ -->
-        <section class="parent-section">
-            <h3>📋 Kịch Bản Cho Bố Mẹ</h3>
-            <div class="script-box">
-                <p><strong>Hướng dẫn:</strong></p>
-                <p id="parent-script">
-                    "Con nhìn này, có một dãy hình. Hãy quan sát kỹ xem có quy luật gì không. 
-                    Theo con, hình tiếp theo sẽ là gì nhỉ? Hãy bấm vào đáp án mà con nghĩ là đúng!"
-                </p>
-                <div class="tips">
-                    <p><strong>💡 Mẹo:</strong></p>
-                    <ul>
-                        <li>Khuyến khích bé quan sát kỹ trước khi chọn</li>
-                        <li>Nếu bé chọn sai, hãy giải thích quy luật một cách đơn giản</li>
-                        <li>Khen ngợi khi bé tìm ra đáp án đúng</li>
-                    </ul>
+        <!-- Horoscope Display -->
+        <section class="horoscope-display" id="horoscope-display" style="display: none;">
+            <div class="zodiac-info">
+                <div class="zodiac-header">
+                    <h2 id="zodiac-name">Tên Cung</h2>
+                    <span id="zodiac-symbol" class="zodiac-symbol">♈</span>
+                </div>
+                <div class="zodiac-details">
+                    <p><strong>Thời gian:</strong> <span id="zodiac-dates"></span></p>
+                    <p><strong>Nguyên tố:</strong> <span id="zodiac-element"></span></p>
+                    <p><strong>Hành tinh cai quản:</strong> <span id="zodiac-planet"></span></p>
+                    <p><strong>Số may mắn:</strong> <span id="zodiac-lucky-numbers"></span></p>
+                    <p><strong>Màu may mắn:</strong> <span id="zodiac-lucky-colors"></span></p>
+                    <p><strong>Tính cách:</strong> <span id="zodiac-personality"></span></p>
                 </div>
             </div>
+
+            <div class="daily-horoscope">
+                <h3>🌙 Tử Vi Hôm Nay</h3>
+                <div class="horoscope-cards">
+                    <div class="horoscope-card love">
+                        <h4>💕 Tình Yêu</h4>
+                        <p id="love-prediction"></p>
+                    </div>
+                    <div class="horoscope-card career">
+                        <h4>💼 Sự Nghiệp</h4>
+                        <p id="career-prediction"></p>
+                    </div>
+                    <div class="horoscope-card health">
+                        <h4>🏥 Sức Khỏe</h4>
+                        <p id="health-prediction"></p>
+                    </div>
+                </div>
+                <div class="lucky-info">
+                    <p><strong>🍀 Số may mắn hôm nay:</strong> <span id="daily-lucky-number"></span></p>
+                    <p><strong>💡 Lời khuyên:</strong> <span id="daily-advice"></span></p>
+                </div>
+            </div>
+
+            <button class="back-btn" onclick="goBack()">← Chọn Cung Khác</button>
         </section>
     </div>
 

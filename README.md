@@ -1,53 +1,66 @@
-# Thử Thách Logic Hàng Ngày
+# 🌟 Tử Vi 12 Cung Hoàng Đạo
 
-Một trang web đơn giản giúp trẻ em phát triển tư duy logic thông qua các bài tập nhận dạng quy luật.
+## Mô tả
+Trang web tử vi 12 cung hoàng đạo đơn giản và đẹp mắt, cho phép người dùng chọn cung hoàng đạo của mình và xem thông tin tử vi chi tiết.
 
 ## Tính năng
+- 🔮 Hiển thị 12 cung hoàng đạo với biểu tượng và thông tin cơ bản
+- 📊 Thông tin chi tiết về từng cung: nguyên tố, hành tinh cai quản, số may mắn, màu may mắn
+- 🌙 Tử vi hàng ngày bao gồm:
+  - 💕 Tình yêu
+  - 💼 Sự nghiệp  
+  - 🏥 Sức khỏe
+  - 🍀 Số may mắn
+  - 💡 Lời khuyên
+- 📱 Thiết kế responsive, tương thích với mọi thiết bị
+- 🎨 Giao diện đẹp mắt với hiệu ứng chuyển động
 
-### Phần dành cho trẻ em:
-- Hiển thị dãy hình với quy luật đơn giản (tròn, vuông, tam giác)
-- Giao diện tương tác với hiệu ứng đẹp mắt
-- Phản hồi tức thì khi chọn đáp án
-- Hiệu ứng pháo hoa khi trả lời đúng
-- 5 mẫu thử thách khác nhau
-
-### Phần dành cho bố mẹ:
-- Kịch bản gợi ý cách hướng dẫn con
-- Mẹo giúp khuyến khích trẻ tư duy
-- Hướng dẫn cách giải thích khi trẻ chọn sai
-
-## Cách sử dụng
-
-1. Mở trang web trên trình duyệt
-2. Bố mẹ đọc kịch bản ở phần dưới
-3. Hướng dẫn con quan sát dãy hình và tìm quy luật
-4. Để con tự chọn đáp án bằng cách bấm vào hình
-5. Bấm "Thử Thách Mới" để tạo bài tập khác
-
-## Cách triển khai lên GitHub Pages
-
-1. Đẩy code lên repository `olympic.github.io`
-2. Vào Settings của repository
-3. Trong phần Pages, chọn source là `main branch`
-4. Trang web sẽ có thể truy cập tại `https://[username].github.io/olympic.github.io`
-
-## Cấu trúc file
-
-- `index.html` - Giao diện chính
-- `style.css` - Styling và hiệu ứng
-- `script.js` - Logic tương tác và các thử thách
-- `README.md` - Hướng dẫn này
-
-## Tùy chỉnh thử thách
-
-Để thêm thử thách mới, chỉnh sửa mảng `challenges` trong file `script.js`:
-
-```javascript
-{
-    pattern: ['circle', 'square', 'circle', 'square'], // Dãy hình
-    correct: 'circle', // Đáp án đúng
-    script: 'Kịch bản cho bố mẹ...' // Hướng dẫn
-}
+## Cấu trúc thư mục
+```
+/
+├── index.html          # Trang chính
+├── style.css          # File CSS styling
+├── script.js          # File JavaScript xử lý logic
+├── horoscope-data.json # Dữ liệu tử vi 12 cung hoàng đạo
+└── README.md          # File mô tả project
 ```
 
-Các hình có sẵn: `circle`, `square`, `triangle`
+## Cung hoàng đạo được hỗ trợ
+1. ♈ Bạch Dương (21/3 - 19/4)
+2. ♉ Kim Ngưu (20/4 - 20/5)
+3. ♊ Song Tử (21/5 - 20/6)
+4. ♋ Cự Giải (21/6 - 22/7)
+5. ♌ Sư Tử (23/7 - 22/8)
+6. ♍ Xử Nữ (23/8 - 22/9)
+7. ♎ Thiên Bình (23/9 - 22/10)
+8. ♏ Hổ Cáp (23/10 - 21/11)
+9. ♐ Nhân Mã (22/11 - 21/12)
+10. ♑ Ma Kết (22/12 - 19/1)
+11. ♒ Bảo Bình (20/1 - 18/2)
+12. ♓ Song Ngư (19/2 - 20/3)
+
+## Cách sử dụng
+1. Mở file `index.html` trong trình duyệt
+2. Chọn cung hoàng đạo của bạn từ lưới hiển thị
+3. Xem thông tin chi tiết và tử vi hàng ngày
+4. Nhấn nút "Chọn Cung Khác" để quay lại
+
+## Công nghệ sử dụng
+- HTML5
+- CSS3 (Grid, Flexbox, Animations)
+- JavaScript (ES6+, Fetch API)
+- JSON để lưu trữ dữ liệu
+
+## Tính năng mở rộng có thể phát triển
+- Thêm tử vi theo tuần/tháng
+- Tính toán cung hoàng đạo tự động từ ngày sinh
+- Lưu cung hoàng đạo yêu thích
+- Chia sẻ kết quả lên mạng xã hội
+- Thêm âm thanh và hiệu ứng đặc biệt
+- Đa ngôn ngữ
+
+## Demo
+Truy cập trang web để xem demo trực tuyến: [Olympic GitHub Pages](https://chungnn.github.io/olympic.github.io/)
+
+---
+*Được tạo bởi GitHub Copilot* 🤖

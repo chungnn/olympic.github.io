@@ -1,0 +1,244 @@
+{
+  "zodiac_signs": {
+    "bach_duong": {
+      "name": "Bạch Dương",
+      "symbol": "♈",
+      "dates": "21/3 - 19/4",
+      "element": "Hỏa",
+      "planet": "Sao Hỏa",
+      "lucky_numbers": [1, 8, 17],
+      "lucky_colors": ["Đỏ", "Cam"],
+      "personality": "Năng động, quyết đoán, dũng cảm, thích dẫn đầu",
+      "daily_predictions": [
+        {
+          "date": "2025-06-25",
+          "love": "Hôm nay tình yêu thuận lợi, bạn sẽ gặp may mắn trong các mối quan hệ. Hãy mở lòng và trao đổi thẳng thắn với người ấy.",
+          "career": "Công việc có những bước tiến tích cực. Sự quyết đoán của bạn sẽ được đánh giá cao. Đừng ngại đưa ra ý kiến của mình.",
+          "health": "Sức khỏe ổn định, nhưng nên chú ý nghỉ ngơi đầy đủ. Tập thể dục nhẹ nhàng sẽ giúp bạn tràn đầy năng lượng.",
+          "lucky_number": 8,
+          "advice": "Hãy tin tưởng vào khả năng lãnh đạo của mình và đừng ngại thể hiện quan điểm cá nhân."
+        }
+      ]
+    },
+    "kim_nguu": {
+      "name": "Kim Ngưu",
+      "symbol": "♉",
+      "dates": "20/4 - 20/5",
+      "element": "Thổ",
+      "planet": "Sao Kim",
+      "lucky_numbers": [2, 6, 9],
+      "lucky_colors": ["Xanh lá", "Hồng"],
+      "personality": "Kiên nhẫn, ổn định, đáng tin cậy, yêu thích sự thoải mái",
+      "daily_predictions": [
+        {
+          "date": "2025-06-25",
+          "love": "Tình cảm ổn định và ấm áp. Đây là thời điểm tốt để củng cố mối quan hệ hiện tại hoặc tìm hiểu người mới.",
+          "career": "Công việc tiến triển chậm nhưng chắc chắn. Sự kiên nhẫn của bạn sẽ được đền đáp xứng đang trong thời gian tới.",
+          "health": "Cần chú ý đến chế độ ăn uống và tránh stress. Massage hoặc spa sẽ giúp bạn thư giãn hiệu quả.",
+          "lucky_number": 6,
+          "advice": "Hãy duy trì sự ổn định và đừng vội vàng trong các quyết định quan trọng."
+        }
+      ]
+    },
+    "song_tu": {
+      "name": "Song Tử",
+      "symbol": "♊",
+      "dates": "21/5 - 20/6",
+      "element": "Khí",
+      "planet": "Sao Thủy",
+      "lucky_numbers": [5, 7, 14],
+      "lucky_colors": ["Vàng", "Xanh dương nhạt"],
+      "personality": "Thông minh, linh hoạt, giao tiếp tốt, tò mò",
+      "daily_predictions": [
+        {
+          "date": "2025-06-25",
+          "love": "Khả năng giao tiếp tốt sẽ giúp bạn thu hút được sự chú ý. Hãy tận dụng sự duyên dáng trong lời nói để chinh phục người thương.",
+          "career": "Nhiều cơ hội mới xuất hiện trong công việc. Khả năng đa nhiệm của bạn sẽ được đánh giá cao.",
+          "health": "Tinh thần minh mẫn nhưng cần chú ý đến giấc ngủ. Tránh suy nghĩ quá nhiều trước khi đi ngủ.",
+          "lucky_number": 7,
+          "advice": "Hãy tận dụng khả năng giao tiếp và kết nối để mở rộng mạng lưới quan hệ."
+        }
+      ]
+    },
+    "cu_giai": {
+      "name": "Cự Giải",
+      "symbol": "♋",
+      "dates": "21/6 - 22/7",
+      "element": "Thủy",
+      "planet": "Mặt Trăng",
+      "lucky_numbers": [2, 7, 11],
+      "lucky_colors": ["Trắng", "Bạc"],
+      "personality": "Nhạy cảm, quan tâm gia đình, trực giác tốt, bảo vệ người thân",
+      "daily_predictions": [
+        {
+          "date": "2025-06-25",
+          "love": "Tình cảm gia đình và tình yêu đều được quan tâm đặc biệt. Hãy dành thời gian cho những người thân yêu.",
+          "career": "Trực giác tốt sẽ giúp bạn đưa ra những quyết định đúng đắn. Tin tưởng vào cảm nhận của bản thân.",
+          "health": "Cảm xúc có thể ảnh hưởng đến sức khỏe. Hãy tìm cách thư giãn và tránh căng thẳng.",
+          "lucky_number": 11,
+          "advice": "Hãy lắng nghe trực giác và dành thời gian chăm sóc bản thân cũng như gia đình."
+        }
+      ]
+    },
+    "su_tu": {
+      "name": "Sư Tử",
+      "symbol": "♌",
+      "dates": "23/7 - 22/8",
+      "element": "Hỏa",
+      "planet": "Mặt Trời",
+      "lucky_numbers": [1, 3, 10],
+      "lucky_colors": ["Vàng", "Cam"],
+      "personality": "Tự tin, hào phóng, thích thể hiện, có khả năng lãnh đạo",
+      "daily_predictions": [
+        {
+          "date": "2025-06-25",
+          "love": "Sức hút cá nhân mạnh mẽ sẽ giúp bạn tỏa sáng trong mọi mối quan hệ. Đây là ngày tốt để tỏ tình hoặc hẹn hò.",
+          "career": "Khả năng lãnh đạo được thể hiện rõ nét. Bạn sẽ được giao những nhiệm vụ quan trọng và có cơ hội thăng tiến.",
+          "health": "Năng lượng dồi dào, sức khỏe tốt. Tham gia các hoạt động thể thao sẽ giúp bạn duy trì form tốt.",
+          "lucky_number": 10,
+          "advice": "Hãy tự tin thể hiện bản thân và đừng ngại đứng ra dẫn dắt trong các tình huống."
+        }
+      ]
+    },
+    "xu_nu": {
+      "name": "Xử Nữ",
+      "symbol": "♍",
+      "dates": "23/8 - 22/9",
+      "element": "Thổ",
+      "planet": "Sao Thủy",
+      "lucky_numbers": [3, 6, 13],
+      "lucky_colors": ["Xanh lá đậm", "Nâu"],
+      "personality": "Tỉ mỉ, hoàn hảo, phân tích tốt, đáng tin cậy",
+      "daily_predictions": [
+        {
+          "date": "2025-06-25",
+          "love": "Sự chăm sóc tỉ mỉ sẽ được người thương đánh giá cao. Tình cảm phát triển ổn định và bền vững.",
+          "career": "Khả năng phân tích và làm việc chi tiết sẽ giúp bạn hoàn thành tốt các dự án. Sự hoàn hảo trong công việc được ghi nhận.",
+          "health": "Cần chú ý đến chế độ dinh dưỡng và không nên quá căng thẳng với việc hoàn hảo mọi thứ.",
+          "lucky_number": 13,
+          "advice": "Hãy cân bằng giữa sự hoàn hảo và việc chấp nhận những khiếm khuyết nhỏ."
+        }
+      ]
+    },
+    "thien_binh": {
+      "name": "Thiên Bình",
+      "symbol": "♎",
+      "dates": "23/9 - 22/10",
+      "element": "Khí",
+      "planet": "Sao Kim",
+      "lucky_numbers": [6, 15, 24],
+      "lucky_colors": ["Xanh pastel", "Hồng nhạt"],
+      "personality": "Cân bằng, hòa hợp, thẩm mỹ cao, thích công bằng",
+      "daily_predictions": [
+        {
+          "date": "2025-06-25",
+          "love": "Sự hòa hợp trong tình cảm được tăng cường. Bạn sẽ tìm được tiếng nói chung với người thương trong mọi vấn đề.",
+          "career": "Khả năng hòa giải và cân bằng sẽ giúp bạn giải quyết được các xung đột trong công việc.",
+          "health": "Cần duy trì sự cân bằng trong cuộc sống. Yoga hoặc thiền định sẽ rất có lợi cho bạn.",
+          "lucky_number": 15,
+          "advice": "Hãy sử dụng khả năng hòa giải để tạo ra môi trường làm việc tích cực."
+        }
+      ]
+    },
+    "ho_cap": {
+      "name": "Hổ Cáp",
+      "symbol": "♏",
+      "dates": "23/10 - 21/11",
+      "element": "Thủy",
+      "planet": "Sao Diêm Vương",
+      "lucky_numbers": [4, 13, 27],
+      "lucky_colors": ["Đỏ đậm", "Đen"],
+      "personality": "Bí ẩn, quyết liệt, trực giác mạnh, đam mê",
+      "daily_predictions": [
+        {
+          "date": "2025-06-25",
+          "love": "Tình cảm mãnh liệt và sâu sắc. Bạn sẽ có những trải nghiệm tình cảm đáng nhớ và ý nghĩa.",
+          "career": "Khả năng thấu hiểu và nghiên cứu sâu sẽ giúp bạn khám phá ra những cơ hội ẩn giấu trong công việc.",
+          "health": "Năng lượng mạnh mẽ nhưng cần chú ý đến việc kiểm soát cảm xúc để tránh stress.",
+          "lucky_number": 13,
+          "advice": "Hãy tin tưởng vào trực giác và đừng ngại đào sâu vào những vấn đề phức tạp."
+        }
+      ]
+    },
+    "nhan_ma": {
+      "name": "Nhân Mã",
+      "symbol": "♐",
+      "dates": "22/11 - 21/12",
+      "element": "Hỏa",
+      "planet": "Sao Mộc",
+      "lucky_numbers": [9, 18, 27],
+      "lucky_colors": ["Tím", "Xanh dương"],
+      "personality": "Tự do, phiêu lưu, lạc quan, thích khám phá",
+      "daily_predictions": [
+        {
+          "date": "2025-06-25",
+          "love": "Tình yêu mang tính phiêu lưu và thú vị. Bạn có thể gặp gỡ người mới hoặc có những trải nghiệm tình cảm mới lạ.",
+          "career": "Cơ hội mở rộng và phát triển xuất hiện. Đừng ngại thử sức với những thách thức mới.",
+          "health": "Hoạt động ngoài trời và du lịch sẽ giúp bạn nạp lại năng lượng tích cực.",
+          "lucky_number": 18,
+          "advice": "Hãy nắm bắt cơ hội mở rộng tầm nhìn và không ngại bước ra khỏi vùng an toàn."
+        }
+      ]
+    },
+    "ma_ket": {
+      "name": "Ma Kết",
+      "symbol": "♑",
+      "dates": "22/12 - 19/1",
+      "element": "Thổ",
+      "planet": "Sao Thổ",
+      "lucky_numbers": [8, 10, 26],
+      "lucky_colors": ["Đen", "Nâu đậm"],
+      "personality": "Kiên trì, có trách nhiệm, tham vọng, thực tế",
+      "daily_predictions": [
+        {
+          "date": "2025-06-25",
+          "love": "Tình cảm nghiêm túc và bền vững. Bạn sẽ có những quyết định quan trọng liên quan đến tương lai tình cảm.",
+          "career": "Sự kiên trì và trách nhiệm sẽ được đánh giá cao. Đây là thời điểm tốt để đặt mục tiêu dài hạn.",
+          "health": "Cần chú ý đến việc cân bằng giữa công việc và nghỉ ngơi. Đừng làm việc quá sức.",
+          "lucky_number": 10,
+          "advice": "Hãy duy trì sự kiên trì và đừng bỏ cuộc trước những thử thách."
+        }
+      ]
+    },
+    "bao_binh": {
+      "name": "Bảo Bình",
+      "symbol": "♒",
+      "dates": "20/1 - 18/2",
+      "element": "Khí",
+      "planet": "Sao Thiên Vương",
+      "lucky_numbers": [4, 7, 11],
+      "lucky_colors": ["Xanh nước biển", "Bạc"],
+      "personality": "Độc lập, sáng tạo, nhân đạo, tiến bộ",
+      "daily_predictions": [
+        {
+          "date": "2025-06-25",
+          "love": "Tình yêu mang tính độc đáo và sáng tạo. Bạn có thể có những cách thể hiện tình cảm khác biệt và ấn tượng.",
+          "career": "Ý tưởng sáng tạo và tư duy tiến bộ sẽ giúp bạn nổi bật trong công việc. Đừng ngại đề xuất những giải pháp mới.",
+          "health": "Cần chú ý đến sức khỏe tinh thần và tìm những hoạt động giúp kích thích trí não.",
+          "lucky_number": 11,
+          "advice": "Hãy thể hiện tính sáng tạo và đừng ngại khác biệt với đám đông."
+        }
+      ]
+    },
+    "song_ngu": {
+      "name": "Song Ngư",
+      "symbol": "♓",
+      "dates": "19/2 - 20/3",
+      "element": "Thủy",
+      "planet": "Sao Hải Vương",
+      "lucky_numbers": [3, 9, 12],
+      "lucky_colors": ["Xanh biển", "Tím nhạt"],
+      "personality": "Nhạy cảm, sáng tạo, thương cảm, mơ mộng",
+      "daily_predictions": [
+        {
+          "date": "2025-06-25",
+          "love": "Tình cảm lãng mạn và sâu sắc. Trực giác tình yêu rất mạnh, hãy tin tưởng vào cảm nhận của bản thân.",
+          "career": "Khả năng sáng tạo và thấu hiểu người khác sẽ giúp bạn trong công việc. Nghệ thuật và sáng tạo được ưu tiên.",
+          "health": "Cảm xúc có thể ảnh hưởng nhiều đến sức khỏe. Hãy tìm cách thư giãn và tránh căng thẳng.",
+          "lucky_number": 12,
+          "advice": "Hãy lắng nghe trực giác và cho phép bản thân được sáng tạo tự do."
+        }
+      ]
+    }
+  }
+}

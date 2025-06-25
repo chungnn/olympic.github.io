@@ -1,4 +1,4 @@
-# 🌟 Tử Vi 12 Cung Hoàng Đạo
+﻿# 🌟 Tử Vi 12 Cung Hoàng Đạo
 
 ## Mô tả
 Trang web tử vi 12 cung hoàng đạo đơn giản và đẹp mắt, cho phép người dùng chọn cung hoàng đạo của mình và xem thông tin tử vi chi tiết.
@@ -33,7 +33,7 @@ Trang web tử vi 12 cung hoàng đạo đơn giản và đẹp mắt, cho phép
 5. ♌ Sư Tử (23/7 - 22/8)
 6. ♍ Xử Nữ (23/8 - 22/9)
 7. ♎ Thiên Bình (23/9 - 22/10)
-8. ♏ Hổ Cáp (23/10 - 21/11)
+8. ♏ Bọ Cạp (23/10 - 21/11)
 9. ♐ Nhân Mã (22/11 - 21/12)
 10. ♑ Ma Kết (22/12 - 19/1)
 11. ♒ Bảo Bình (20/1 - 18/2)

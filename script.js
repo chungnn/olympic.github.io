@@ -6,7 +6,7 @@ let currentDate = '';
 // Danh sách các cung hoàng đạo
 const zodiacSigns = [
     'bach_duong', 'kim_nguu', 'song_tu', 'cu_giai', 
-    'su_tu', 'xu_nu', 'thien_binh', 'ho_cap', 
+    'su_tu', 'xu_nu', 'thien_binh', 'bo_cap', 
     'nhan_ma', 'ma_ket', 'bao_binh', 'song_ngu'
 ];
 
@@ -22,15 +22,27 @@ async function loadZodiacInfo(zodiacSign) {
     }
 }
 
-// Load dữ liệu tử vi theo ngày
+// Load dữ liệu tử vi theo ngày từ cấu trúc mới
 async function loadDailyHoroscope(zodiacSign, date) {
     try {
-        const response = await fetch(`data/daily/${zodiacSign}/${date}.json`);
+        // Phân tích ngày để lấy năm, tháng, ngày
+        const [year, month, day] = date.split('-');
+        
+        // Tải file tháng
+        const response = await fetch(`data/${zodiacSign}/${year}/${parseInt(month)}.json`);
+        
         if (!response.ok) {
-            throw new Error(`Không tìm thấy dữ liệu cho ngày ${date}`);
+            throw new Error(`Không tìm thấy dữ liệu cho tháng ${month}/${year}`);
         }
-        const data = await response.json();
-        return data;
+        
+        const monthData = await response.json();
+        const dayKey = `day_${parseInt(day)}`;
+        
+        if (monthData.days && monthData.days[dayKey]) {
+            return monthData.days[dayKey];
+        } else {
+            throw new Error(`Không tìm thấy dữ liệu cho ngày ${day}`);
+        }
     } catch (error) {
         console.error(`Lỗi khi tải dữ liệu tử vi cho ${zodiacSign} ngày ${date}:`, error);
         // Fallback: tạo dữ liệu mặc định
@@ -48,7 +60,7 @@ function generateDefaultHoroscope(zodiacSign, date) {
         'su_tu': 'Sư Tử',
         'xu_nu': 'Xử Nữ',
         'thien_binh': 'Thiên Bình',
-        'ho_cap': 'Hổ Cáp',
+        'bo_cap': 'Bọ Cạp',
         'nhan_ma': 'Nhân Mã',
         'ma_ket': 'Ma Kết',
         'bao_binh': 'Bảo Bình',

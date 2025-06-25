@@ -1,10 +1,74 @@
-// Dữ liệu tử vi sẽ được tải từ file JSON
-let horoscopeData = null;
+// Dữ liệu tử vi sẽ được tải từ các file JSON riêng biệt
+let horoscopeData = {};
+let currentZodiac = '';
+let currentDate = '';
+
+// Danh sách các cung hoàng đạo
+const zodiacSigns = [
+    'bach_duong', 'kim_nguu', 'song_tu', 'cu_giai', 
+    'su_tu', 'xu_nu', 'thien_binh', 'ho_cap', 
+    'nhan_ma', 'ma_ket', 'bao_binh', 'song_ngu'
+];
+
+// Load thông tin cơ bản của cung hoàng đạo
+async function loadZodiacInfo(zodiacSign) {
+    try {
+        const response = await fetch(`data/${zodiacSign}_info.json`);
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error(`Lỗi khi tải thông tin cung ${zodiacSign}:`, error);
+        return null;
+    }
+}
+
+// Load dữ liệu tử vi theo ngày
+async function loadDailyHoroscope(zodiacSign, date) {
+    try {
+        const response = await fetch(`data/daily/${zodiacSign}/${date}.json`);
+        if (!response.ok) {
+            throw new Error(`Không tìm thấy dữ liệu cho ngày ${date}`);
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error(`Lỗi khi tải dữ liệu tử vi cho ${zodiacSign} ngày ${date}:`, error);
+        // Fallback: tạo dữ liệu mặc định
+        return generateDefaultHoroscope(zodiacSign, date);
+    }
+}
+
+// Tạo dữ liệu tử vi mặc định khi không tìm thấy file
+function generateDefaultHoroscope(zodiacSign, date) {
+    const zodiacNames = {
+        'bach_duong': 'Bạch Dương',
+        'kim_nguu': 'Kim Ngưu',
+        'song_tu': 'Song Tử',
+        'cu_giai': 'Cự Giải',
+        'su_tu': 'Sư Tử',
+        'xu_nu': 'Xử Nữ',
+        'thien_binh': 'Thiên Bình',
+        'ho_cap': 'Hổ Cáp',
+        'nhan_ma': 'Nhân Mã',
+        'ma_ket': 'Ma Kết',
+        'bao_binh': 'Bảo Bình',
+        'song_ngu': 'Song Ngư'
+    };
+    
+    return {
+        date: date,
+        love: `Ngày ${date} sẽ mang đến những cơ hội tốt đẹp trong tình yêu cho ${zodiacNames[zodiacSign]}. Hãy mở lòng và tận hưởng những khoảnh khắc đặc biệt.`,
+        career: `Trong công việc, ${zodiacNames[zodiacSign]} sẽ có nhiều cơ hội thể hiện khả năng. Hãy tự tin và nỗ lực hết mình để đạt được mục tiêu đề ra.`,
+        health: `Sức khỏe của ${zodiacNames[zodiacSign]} cần được chú ý. Hãy duy trì lối sống lành mạnh và tập luyện thể dục đều đặn.`,
+        lucky_number: Math.floor(Math.random() * 9) + 1,
+        advice: `Hãy tin tưởng vào bản thân và những quyết định của mình. Ngày hôm nay sẽ mang đến nhiều điều tốt lành.`
+    };
+}
 
 // Khởi tạo trang
 document.addEventListener('DOMContentLoaded', function() {
     displayCurrentDate();
-    loadHoroscopeData();
+    loadZodiacGrid();
 });
 
 // Hiển thị ngày hiện tại
@@ -17,127 +81,143 @@ function displayCurrentDate() {
         day: 'numeric' 
     };
     document.getElementById('current-date').textContent = now.toLocaleDateString('vi-VN', options);
+    
+    // Lưu ngày hiện tại để sử dụng
+    currentDate = formatDateForFile(now);
 }
 
-// Tải dữ liệu tử vi từ file JSON
-async function loadHoroscopeData() {
+// Format ngày theo định dạng yyyy-mm-dd
+function formatDateForFile(date) {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+}
+
+// Tải và hiển thị lưới cung hoàng đạo
+async function loadZodiacGrid() {
     try {
-        const response = await fetch('horoscope-data.json');
-        horoscopeData = await response.json();
-        displayZodiacGrid();
+        const gridContainer = document.getElementById('zodiac-grid');
+        
+        for (const zodiacSign of zodiacSigns) {
+            const zodiacInfo = await loadZodiacInfo(zodiacSign);
+            if (zodiacInfo) {
+                const zodiacCard = createZodiacCard(zodiacSign, zodiacInfo);
+                gridContainer.appendChild(zodiacCard);
+            }
+        }
     } catch (error) {
-        console.error('Lỗi khi tải dữ liệu tử vi:', error);
-        // Fallback: hiển thị thông báo lỗi
+        console.error('Lỗi khi tải lưới cung hoàng đạo:', error);
         document.querySelector('.zodiac-selection').innerHTML = 
             '<h2>❌ Không thể tải dữ liệu tử vi</h2><p>Vui lòng thử lại sau.</p>';
     }
 }
 
-// Hiển thị lưới 12 cung hoàng đạo
-function displayZodiacGrid() {
-    const zodiacGrid = document.getElementById('zodiac-grid');
-    zodiacGrid.innerHTML = '';
-
-    // Danh sách các cung hoàng đạo theo thứ tự
-    const zodiacOrder = [
-        'bach_duong', 'kim_nguu', 'song_tu', 'cu_giai',
-        'su_tu', 'xu_nu', 'thien_binh', 'ho_cap',
-        'nhan_ma', 'ma_ket', 'bao_binh', 'song_ngu'
-    ];
-
-    zodiacOrder.forEach(zodiacKey => {
-        const zodiac = horoscopeData.zodiac_signs[zodiacKey];
-        if (zodiac) {
-            const card = createZodiacCard(zodiacKey, zodiac);
-            zodiacGrid.appendChild(card);
-        }
-    });
-}
-
-// Tạo card cho từng cung hoàng đạo
-function createZodiacCard(key, zodiac) {
+// Tạo thẻ cung hoàng đạo
+function createZodiacCard(zodiacSign, zodiacInfo) {
     const card = document.createElement('div');
     card.className = 'zodiac-card';
-    card.onclick = () => showHoroscope(key);
+    card.onclick = () => selectZodiac(zodiacSign);
     
     card.innerHTML = `
-        <span class="symbol">${zodiac.symbol}</span>
-        <div class="name">${zodiac.name}</div>
-        <div class="dates">${zodiac.dates}</div>
+        <div class="zodiac-symbol">${zodiacInfo.symbol}</div>
+        <h3>${zodiacInfo.name}</h3>
+        <p class="zodiac-dates">${zodiacInfo.date_range}</p>
+        <p class="zodiac-element">Nguyên tố: ${zodiacInfo.element}</p>
     `;
     
     return card;
 }
 
-// Hiển thị tử vi cho cung hoàng đạo được chọn
-function showHoroscope(zodiacKey) {
-    const zodiac = horoscopeData.zodiac_signs[zodiacKey];
-    if (!zodiac) return;
 
-    // Ẩn phần chọn cung hoàng đạo
+// Chọn cung hoàng đạo
+async function selectZodiac(zodiacSign) {
+    currentZodiac = zodiacSign;
+    
+    // Hiển thị loading
+    showLoading();
+    
+    try {
+        // Tải thông tin cung và tử vi hàng ngày
+        const [zodiacInfo, dailyHoroscope] = await Promise.all([
+            loadZodiacInfo(zodiacSign),
+            loadDailyHoroscope(zodiacSign, currentDate)
+        ]);
+        
+        if (zodiacInfo && dailyHoroscope) {
+            displayHoroscope(zodiacInfo, dailyHoroscope);
+        } else {
+            showError('Không thể tải thông tin tử vi');
+        }
+    } catch (error) {
+        console.error('Lỗi khi chọn cung hoàng đạo:', error);
+        showError('Đã xảy ra lỗi khi tải dữ liệu');
+    } finally {
+        hideLoading();
+    }
+}
+
+// Hiển thị loading
+function showLoading() {
+    const zodiacSelection = document.querySelector('.zodiac-selection');
+    const loadingDiv = document.createElement('div');
+    loadingDiv.id = 'loading';
+    loadingDiv.className = 'loading';
+    loadingDiv.innerHTML = `
+        <div class="loading-spinner"></div>
+        <p>Đang tải dữ liệu tử vi...</p>
+    `;
+    zodiacSelection.appendChild(loadingDiv);
+}
+
+// Ẩn loading
+function hideLoading() {
+    const loading = document.getElementById('loading');
+    if (loading) {
+        loading.remove();
+    }
+}
+
+// Hiển thị lỗi
+function showError(message) {
+    const zodiacSelection = document.querySelector('.zodiac-selection');
+    const errorDiv = document.createElement('div');
+    errorDiv.className = 'error-message';
+    errorDiv.innerHTML = `
+        <h2>❌ ${message}</h2>
+        <button onclick="location.reload()">Thử lại</button>
+    `;
+    zodiacSelection.appendChild(errorDiv);
+}
+
+// Hiển thị tử vi
+function displayHoroscope(zodiacInfo, dailyHoroscope) {
+    // Ẩn phần chọn cung
     document.querySelector('.zodiac-selection').style.display = 'none';
     
     // Hiển thị phần tử vi
     const horoscopeDisplay = document.getElementById('horoscope-display');
     horoscopeDisplay.style.display = 'block';
-
-    // Cập nhật thông tin cung hoàng đạo
-    document.getElementById('zodiac-name').textContent = zodiac.name;
-    document.getElementById('zodiac-symbol').textContent = zodiac.symbol;
-    document.getElementById('zodiac-dates').textContent = zodiac.dates;
-    document.getElementById('zodiac-element').textContent = zodiac.element;
-    document.getElementById('zodiac-planet').textContent = zodiac.planet;
-    document.getElementById('zodiac-lucky-numbers').textContent = zodiac.lucky_numbers.join(', ');
-    document.getElementById('zodiac-lucky-colors').textContent = zodiac.lucky_colors.join(', ');
-    document.getElementById('zodiac-personality').textContent = zodiac.personality;
-
-    // Lấy dự đoán cho ngày hiện tại (hoặc ngày mặc định)
-    const todayPrediction = zodiac.daily_predictions[0]; // Lấy dự đoán đầu tiên
     
-    document.getElementById('love-prediction').textContent = todayPrediction.love;
-    document.getElementById('career-prediction').textContent = todayPrediction.career;
-    document.getElementById('health-prediction').textContent = todayPrediction.health;
-    document.getElementById('daily-lucky-number').textContent = todayPrediction.lucky_number;
-    document.getElementById('daily-advice').textContent = todayPrediction.advice;
+    // Cập nhật thông tin cung
+    document.getElementById('selected-zodiac-name').textContent = zodiacInfo.name;
+    document.getElementById('selected-zodiac-symbol').textContent = zodiacInfo.symbol;
+    document.getElementById('selected-zodiac-dates').textContent = zodiacInfo.date_range;
+    document.getElementById('selected-zodiac-element').textContent = zodiacInfo.element;
+    
+    // Cập nhật tử vi hàng ngày
+    document.getElementById('love-prediction').textContent = dailyHoroscope.love;
+    document.getElementById('career-prediction').textContent = dailyHoroscope.career;
+    document.getElementById('health-prediction').textContent = dailyHoroscope.health;
+    document.getElementById('lucky-number').textContent = dailyHoroscope.lucky_number;
+    document.getElementById('advice-text').textContent = dailyHoroscope.advice;
 }
 
-// Quay lại trang chọn cung hoàng đạo
-function goBack() {
-    document.querySelector('.zodiac-selection').style.display = 'block';
+// Quay lại trang chọn cung
+function backToZodiacSelection() {
     document.getElementById('horoscope-display').style.display = 'none';
+    document.querySelector('.zodiac-selection').style.display = 'block';
+    currentZodiac = '';
 }
 
-// Hàm tạo dự đoán ngẫu nhiên cho các ngày khác (tùy chọn mở rộng)
-function generateRandomPrediction(zodiacKey) {
-    const lovePredictions = [
-        "Tình yêu sẽ có những bất ngờ thú vị. Hãy mở lòng đón nhận.",
-        "Mối quan hệ hiện tại sẽ được củng cố mạnh mẽ hơn.",
-        "Cơ hội gặp gỡ người mới rất cao trong ngày hôm nay.",
-        "Tình cảm gia đình sẽ được ưu tiên hơn tình yêu.",
-        "Sự lãng mạn sẽ tràn ngập cuộc sống của bạn."
-    ];
     
-    const careerPredictions = [
-        "Công việc thuận lợi, có thể có cơ hội thăng tiến.",
-        "Hãy cẩn thận trong các quyết định quan trọng.",
-        "Sự sáng tạo sẽ được đánh giá cao trong công việc.",
-        "Mối quan hệ đồng nghiệp sẽ hỗ trợ bạn rất nhiều.",
-        "Đây là thời điểm tốt để bắt đầu dự án mới."
-    ];
-    
-    const healthPredictions = [
-        "Sức khỏe ổn định, hãy duy trì chế độ sinh hoạt tốt.",
-        "Cần chú ý nghỉ ngơi và tránh căng thẳng.",
-        "Hoạt động thể thao sẽ mang lại nhiều lợi ích.",
-        "Chế độ ăn uống cần được quan tâm đặc biệt.",
-        "Tinh thần thoải mái sẽ giúp cải thiện sức khỏe."
-    ];
-    
-    return {
-        love: lovePredictions[Math.floor(Math.random() * lovePredictions.length)],
-        career: careerPredictions[Math.floor(Math.random() * careerPredictions.length)],
-        health: healthPredictions[Math.floor(Math.random() * healthPredictions.length)],
-        lucky_number: Math.floor(Math.random() * 99) + 1,
-        advice: "Hãy luôn giữ thái độ tích cực và tin tưởng vào bản thân."
-    };
-}

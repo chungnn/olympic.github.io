@@ -26,16 +26,12 @@
         <section class="horoscope-display" id="horoscope-display" style="display: none;">
             <div class="zodiac-info">
                 <div class="zodiac-header">
-                    <h2 id="zodiac-name">Tên Cung</h2>
-                    <span id="zodiac-symbol" class="zodiac-symbol">♈</span>
+                    <h2 id="selected-zodiac-name">Tên Cung</h2>
+                    <span id="selected-zodiac-symbol" class="zodiac-symbol">♈</span>
                 </div>
                 <div class="zodiac-details">
-                    <p><strong>Thời gian:</strong> <span id="zodiac-dates"></span></p>
-                    <p><strong>Nguyên tố:</strong> <span id="zodiac-element"></span></p>
-                    <p><strong>Hành tinh cai quản:</strong> <span id="zodiac-planet"></span></p>
-                    <p><strong>Số may mắn:</strong> <span id="zodiac-lucky-numbers"></span></p>
-                    <p><strong>Màu may mắn:</strong> <span id="zodiac-lucky-colors"></span></p>
-                    <p><strong>Tính cách:</strong> <span id="zodiac-personality"></span></p>
+                    <p><strong>Thời gian:</strong> <span id="selected-zodiac-dates"></span></p>
+                    <p><strong>Nguyên tố:</strong> <span id="selected-zodiac-element"></span></p>
                 </div>
             </div>
 
@@ -56,12 +52,12 @@
                     </div>
                 </div>
                 <div class="lucky-info">
-                    <p><strong>🍀 Số may mắn hôm nay:</strong> <span id="daily-lucky-number"></span></p>
-                    <p><strong>💡 Lời khuyên:</strong> <span id="daily-advice"></span></p>
+                    <p><strong>🍀 Số may mắn hôm nay:</strong> <span id="lucky-number"></span></p>
+                    <p><strong>💡 Lời khuyên:</strong> <span id="advice-text"></span></p>
                 </div>
             </div>
 
-            <button class="back-btn" onclick="goBack()">← Chọn Cung Khác</button>
+            <button class="back-btn" onclick="backToZodiacSelection()">← Chọn Cung Khác</button>
         </section>
     </div>
 

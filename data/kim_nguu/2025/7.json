@@ -1,0 +1,254 @@
+{
+    "month_name": "Tháng 7",
+    "month": "2025-07",
+    "days": {
+        "day_01": {
+            "date": "2025-07-01",
+            "love": "Tháng 7 bắt đầu với một 'vibe' cực chill. Kim Ngưu độc thân không cần vội, 'gu' của bạn sẽ tự tìm đến trong một quán cà phê quen thuộc hoặc một buổi triển lãm nghệ thuật. 🎨 Với các cặp đôi, hôm nay là ngày để cùng nhau tận hưởng những điều giản dị, như nấu một bữa tối ngon và xem phim tại nhà. 🎬❤️",
+            "career": "Sự nghiệp ổn định, không có biến động lớn. Đây là lúc để bạn củng cố những gì đang có. Sự kiên trì và chăm chỉ của bạn chính là 'chìa khóa' thành công. Đừng quên tự thưởng cho mình một ly trà sữa sau giờ làm. 🧋",
+            "health": "Sức khỏe tốt. Hãy duy trì thói quen ăn uống lành mạnh và ngủ đủ giấc. Một buổi đi dạo nhẹ nhàng trong công viên sẽ giúp bạn thư giãn. 🌳",
+            "lucky_number": 6,
+            "advice": "'Slow and steady wins the race'. Cứ từ từ mà tiến, không cần phải vội vàng. Chất lượng hơn số lượng. 🐢"
+        },
+        "day_02": {
+            "date": "2025-07-02",
+            "love": "Tình yêu hôm nay cần sự 'thực tế'. Đừng mơ mộng viển vông. FA thì hãy tìm một người có cùng giá trị sống và mục tiêu tài chính. 💰 Các cặp đôi thì nên cùng nhau lên kế hoạch tiết kiệm cho một mục tiêu chung. 🏡",
+            "career": "Tài chính là điểm sáng trong ngày. Có thể bạn sẽ nhận được một khoản tiền thưởng hoặc tìm ra một cách để tăng thu nhập. Hãy quản lý chi tiêu một cách thông minh. 💸",
+            "health": "Chú ý đến các vấn đề về cổ họng. Tránh ăn đồ quá cay nóng hoặc uống nước đá. Một ly trà hoa cúc ấm sẽ rất tốt. 🌼",
+            "lucky_number": 2,
+            "advice": "An toàn tài chính mang lại sự bình yên trong tâm hồn. Hãy là một người quản lý tiền bạc thông thái. 'Secure the bag'. 💰"
+        },
+        "day_03": {
+            "date": "2025-07-03",
+            "love": "Hôm nay là ngày của những cuộc trò chuyện 'chất lượng'. Bạn và người ấy/crush có thể chia sẻ với nhau những suy nghĩ sâu sắc. Sự đồng điệu về tâm hồn sẽ làm tình cảm thêm bền chặt. ❤️",
+            "career": "Kỹ năng giao tiếp và đàm phán của bạn sẽ được phát huy tối đa. Một cuộc nói chuyện khéo léo có thể mang lại một hợp đồng 'ngon lành'. 🤝",
+            "health": "Sức khỏe tinh thần tốt. Đọc một cuốn sách hay hoặc viết nhật ký sẽ giúp bạn cảm thấy thư thái. 📚",
+            "lucky_number": 5,
+            "advice": "Giao tiếp là chìa khóa của mọi mối quan hệ. Hãy lắng nghe nhiều hơn và nói ít đi. 'Listen to understand, not to reply'. 🙏"
+        },
+        "day_04": {
+            "date": "2025-07-04",
+            "love": "Tình yêu hôm nay cần sự 'ấm áp' và 'an toàn'. Hãy dành thời gian cho gia đình và những người thân yêu. Một bữa cơm nhà là liều thuốc chữa lành tốt nhất. 👨‍👩‍👧‍👦",
+            "career": "Công việc có thể hơi nhàm chán, nhưng đừng vì thế mà lơ là. Hãy hoàn thành tốt những nhiệm vụ được giao. Sự ổn định cũng là một loại thành công. ✨",
+            "health": "Chú ý đến hệ tiêu hóa. Ăn uống đúng giờ và tránh các món ăn lạ. Bụng dạ có yên thì tinh thần mới khỏe. 😋",
+            "lucky_number": 4,
+            "advice": "Tổ ấm là nơi để trở về. Hãy trân trọng những giây phút bình yên bên gia đình. 'Home is where the heart is'. ❤️"
+        },
+        "day_05": {
+            "date": "2025-07-05",
+            "love": "Cuối tuần rồi, hãy tự thưởng cho mình một buổi 'spa day' hoặc đi mua sắm. FA thì hãy yêu thương bản thân trước khi yêu người khác. 💖 Các cặp đôi thì có thể cùng nhau đi massage thư giãn. 💆‍♀️",
+            "career": "Gác lại công việc và tận hưởng thành quả lao động của mình. Bạn xứng đáng được nghỉ ngơi và nuông chiều bản thân. 🛍️",
+            "health": "Chăm sóc cơ thể là ưu tiên hàng đầu. Một bồn tắm nước nóng với tinh dầu sẽ giúp bạn xua tan mọi mệt mỏi. 🛀",
+            "lucky_number": 7,
+            "advice": "'Treat yourself'. Đừng quá khắt khe với bản thân. Bạn đã làm việc rất chăm chỉ rồi. Hãy tận hưởng cuộc sống. 🥰"
+        },
+        "day_06": {
+            "date": "2025-07-06",
+            "love": "Chủ nhật yên bình. Tình yêu hôm nay là sự đồng hành thầm lặng. Cùng nhau làm vườn, chăm sóc cây cối, hoặc đơn giản là ngồi bên nhau đọc sách. 🌿📚",
+            "career": "Lên kế hoạch cho tuần mới một cách cẩn thận và chi tiết. Sự chuẩn bị kỹ lưỡng sẽ giúp bạn tránh được những sai sót không đáng có. 📝",
+            "health": "Sức khỏe cần được 'nạp' năng lượng từ thiên nhiên. Hãy đi dạo trong công viên, hít thở không khí trong lành. 🌳",
+            "lucky_number": 8,
+            "advice": "Sự kiên nhẫn là một đức tính tốt. Mọi thứ tốt đẹp đều cần có thời gian để phát triển. 'Good things take time'. 🌱"
+        },
+        "day_07": {
+            "date": "2025-07-07",
+            "love": "Tình yêu có thể gặp một chút 'sóng gió' vì sự bướng bỉnh của bạn. Hãy học cách lắng nghe và nhún nhường một chút. Đừng để cái tôi làm hỏng chuyện. 😠",
+            "career": "Công việc có thể gặp phải sự phản đối hoặc trì hoãn. Đừng cố chấp, hãy linh hoạt và tìm một hướng đi khác. 🧐",
+            "health": "Cẩn thận với các vấn đề về cổ và vai gáy. Ngồi thẳng lưng và đừng làm việc quá sức. 🚶‍♀️",
+            "lucky_number": 1,
+            "advice": "Đôi khi, thay đổi còn tốt hơn là cố chấp. Hãy học cách thích nghi với hoàn cảnh. 'Adapt or perish'. 🌊"
+        },
+        "day_08": {
+            "date": "2025-07-08",
+            "love": "Hôm nay là ngày để bạn thể hiện sự 'hào phóng' của mình. Tặng người ấy một món quà bất ngờ hoặc mời họ một bữa ăn thịnh soạn. 🎁",
+            "career": "Tài chính rủng rỉnh. Bạn có thể muốn đầu tư vào một thứ gì đó có giá trị, như một tác phẩm nghệ thuật hoặc một món đồ hiệu. Hãy chi tiêu một cách thông minh. 💎",
+            "health": "Hãy ăn mừng bằng một bữa ăn ngon. Nhưng đừng quên kiểm soát lượng calo nhé. Ăn ngon nhưng vẫn phải 'healthy'. 🥗",
+            "lucky_number": 9,
+            "advice": "Tiền bạc là để tận hưởng cuộc sống, không phải để cất giữ. Hãy biết cách dùng tiền để mang lại niềm vui cho mình và người khác. 'Money is a tool'. 🛠️"
+        },
+        "day_09": {
+            "date": "2025-07-09",
+            "love": "Tình yêu hôm nay cần sự 'mở mang' đầu óc. Cùng nhau học một điều gì đó mới, như một ngôn ngữ hoặc một điệu nhảy. FA thì có thể gặp được người thú vị trong một lớp học. 🎓",
+            "career": "Cơ hội để mở rộng kiến thức và kỹ năng. Đừng ngại học hỏi từ những người xung quanh. Kiến thức là khoản đầu tư không bao giờ lỗ. 📚",
+            "health": "Sức khỏe tinh thần được cải thiện khi bạn học được những điều mới. Hãy giữ cho bộ não của bạn luôn 'bận rộn'. 🧠",
+            "lucky_number": 3,
+            "advice": "Đừng bao giờ ngừng học hỏi. Thế giới luôn thay đổi và chúng ta cũng vậy. 'Live as if you were to die tomorrow. Learn as if you were to live forever'. ✨"
+        },
+        "day_10": {
+            "date": "2025-07-10",
+            "love": "Hôm nay bạn có thể cảm thấy hơi 'gánh nặng' trách nhiệm trong tình yêu. Hãy chia sẻ với người ấy để cùng nhau san sẻ. ❤️",
+            "career": "Áp lực công việc và trách nhiệm tăng cao. Bạn có thể cảm thấy hơi 'đuối'. Hãy sắp xếp công việc một cách khoa học và đừng ngại nhờ sự giúp đỡ. 😥",
+            "health": "Cẩn thận với các vấn đề về lưng và cột sống. Ngồi đúng tư thế và đừng mang vác vật nặng. 🏋️‍♀️❌",
+            "lucky_number": 10,
+            "advice": "Bạn không cần phải gánh cả thế giới trên vai. Hãy học cách chia sẻ trách nhiệm và tin tưởng vào người khác. 'It's okay to ask for help'. 🤗"
+        },
+        "day_11": {
+            "date": "2025-07-11",
+            "love": "Tình yêu hôm nay có chút 'bất ngờ' thú vị. Một người bạn có thể trở thành 'crush'. Hoặc bạn sẽ có một buổi hẹn hò rất độc đáo. 😉",
+            "career": "Một cơ hội hợp tác bất ngờ có thể đến từ mạng lưới bạn bè. Hãy giữ liên lạc và cởi mở với những ý tưởng mới. 🤝",
+            "health": "Tham gia một hoạt động xã hội sẽ giúp bạn cảm thấy vui vẻ và kết nối hơn. Đừng ở nhà một mình. 🥳",
+            "lucky_number": 11,
+            "advice": "Hãy cởi mở với những điều bất ngờ. Đôi khi những điều tốt đẹp nhất lại đến từ những nơi bạn không ngờ tới. 'Expect the unexpected'. 🎁"
+        },
+        "day_12": {
+            "date": "2025-07-12",
+            "love": "Hôm nay bạn có thể cảm thấy hơi 'mất phương hướng' trong tình yêu. Hãy dành thời gian ở một mình để suy ngẫm về những gì bạn thực sự muốn. 🤔",
+            "career": "Công việc có thể hơi mơ hồ và không rõ ràng. Đừng vội đưa ra quyết định quan trọng. Hãy thu thập thêm thông tin trước. 🧐",
+            "health": "Sức khỏe tinh thần cần được nghỉ ngơi. Nghe nhạc, thiền định hoặc xem một bộ phim nhẹ nhàng sẽ giúp bạn thư giãn. 🎶",
+            "lucky_number": 12,
+            "advice": "Lạc lối là một phần của hành trình. Đừng lo lắng. Bạn sẽ sớm tìm lại được con đường của mình thôi. 'Not all those who wander are lost'.  Tolkien ✨"
+        },
+        "day_13": {
+            "date": "2025-07-13",
+            "love": "Một cuộc tranh cãi về tiền bạc hoặc tài sản có thể nổ ra. Hãy giữ bình tĩnh và giải quyết vấn đề một cách công bằng. 😠💰",
+            "career": "Cẩn thận với các vấn đề pháp lý hoặc hợp đồng. Hãy đọc kỹ các điều khoản trước khi ký bất cứ thứ gì. 📜",
+            "health": "Căng thẳng có thể ảnh hưởng đến sức khỏe của bạn. Hãy tìm cách giải tỏa stress một cách lành mạnh, như tập thể dục hoặc nói chuyện với bạn bè. 🧘‍♀️",
+            "lucky_number": 13,
+            "advice": "Công bằng và minh bạch là nền tảng của sự tin tưởng. Hãy luôn hành động một cách chính trực. 'Honesty is the best policy'. 👍"
+        },
+        "day_14": {
+            "date": "2025-07-14",
+            "love": "Sau những căng thẳng, đã đến lúc tìm lại sự 'hài hòa'. Cùng nhau đi dạo, ngắm hoàng hôn, hoặc làm một điều gì đó lãng mạn. 🌅❤️",
+            "career": "Mọi vấn đề được giải quyết. Bầu không khí làm việc trở nên dễ chịu hơn. Đây là lúc để tập trung vào việc xây dựng các mối quan hệ tốt đẹp với đồng nghiệp. 🤝",
+            "health": "Sức khỏe phục hồi. Bạn cảm thấy cân bằng và thư thái. Hãy duy trì trạng thái này bằng cách thực hành lòng biết ơn. 🙏",
+            "lucky_number": 14,
+            "advice": "Hòa bình đến từ bên trong. Đừng tìm kiếm nó ở bên ngoài. 'Peace comes from within'. 💖"
+        },
+        "day_15": {
+            "date": "2025-07-15",
+            "love": "Hôm nay là ngày để bạn 'tỏa sáng' một cách thầm lặng. Vẻ đẹp và sự duyên dáng của bạn sẽ tự nhiên thu hút người khác. FA không cần làm gì nhiều, 'hữu xạ tự nhiên hương'. 🌸",
+            "career": "Sự chăm chỉ và cống hiến của bạn sẽ được ghi nhận. Có thể bạn sẽ nhận được một lời khen hoặc một phần thưởng nhỏ. 🏆",
+            "health": "Sức khỏe và sắc đẹp đều ở trạng thái tốt. Hãy chăm sóc da và tóc của bạn. Vẻ đẹp tự nhiên là đẹp nhất. ✨",
+            "lucky_number": 15,
+            "advice": "Vẻ đẹp đích thực đến từ sự tự tin và lòng tốt. Hãy nuôi dưỡng vẻ đẹp từ bên trong. 'Beauty begins the moment you decide to be yourself'. - Coco Chanel 👑"
+        },
+        "day_16": {
+            "date": "2025-07-16",
+            "love": "Tình yêu hôm nay cần sự 'phân tích' và 'sắp xếp'. Có thể bạn cần xem xét lại mối quan hệ của mình một cách logic. Đừng để cảm xúc lấn át lý trí. 🧐",
+            "career": "Công việc đòi hỏi sự tỉ mỉ, chính xác và có tổ chức. Hãy lập kế hoạch chi tiết và kiểm tra lại mọi thứ hai lần. 꼼꼼하게! (kkokkomhage! - tiếng Hàn: một cách tỉ mỉ) ✨",
+            "health": "Chú ý đến chế độ ăn uống và hệ tiêu hóa. Ăn nhiều rau xanh và thực phẩm giàu chất xơ. 🥦",
+            "lucky_number": 16,
+            "advice": "Trật tự và ngăn nắp mang lại sự bình yên cho tâm trí. Hãy dọn dẹp không gian sống và làm việc của bạn. 'A clear space means a clear mind'. 🧹"
+        },
+        "day_17": {
+            "date": "2025-07-17",
+            "love": "Hôm nay là ngày của sự 'hợp tác' trong tình yêu. Cùng nhau giải quyết một vấn đề chung sẽ làm hai bạn gắn kết hơn. 🤝❤️",
+            "career": "Làm việc nhóm sẽ mang lại hiệu quả cao. Hãy lắng nghe và tôn trọng ý kiến của đối tác và đồng nghiệp. 'Two heads are better than one'. 💡💡",
+            "health": "Sức khỏe cần sự cân bằng. Đừng làm việc quá sức. Hãy dành thời gian cho các mối quan hệ xã hội. 🧑‍🤝‍🧑",
+            "lucky_number": 17,
+            "advice": "Hợp tác là chìa khóa để đạt được những mục tiêu lớn. Hãy học cách làm việc cùng người khác. 'Alone we can do so little; together we can do so much'. - Helen Keller 💖"
+        },
+        "day_18": {
+            "date": "2025-07-18",
+            "love": "Tình yêu hôm nay có chút 'đam mê' và 'mãnh liệt'. Bạn có thể cảm thấy bị thu hút bởi một người có vẻ ngoài bí ẩn. FA hãy cẩn thận, đừng để bị 'lừa tình'. 😉",
+            "career": "Công việc có thể liên quan đến các vấn đề tài chính lớn, như đầu tư hoặc thừa kế. Hãy nghiên cứu kỹ và đừng đưa ra quyết định bốc đồng. 🧐",
+            "health": "Năng lượng của bạn hôm nay khá mạnh. Hãy dùng nó vào việc tập luyện hoặc các hoạt động thể chất để giải tỏa. 💪",
+            "lucky_number": 18,
+            "advice": "Đam mê là một con dao hai lưỡi. Hãy kiểm soát nó một cách khôn ngoan. Đừng để nó kiểm soát bạn. 🔥"
+        },
+        "day_19": {
+            "date": "2025-07-19",
+            "love": "Hôm nay là ngày để 'mở rộng tầm mắt' trong tình yêu. Cùng nhau đi du lịch hoặc tìm hiểu về một nền văn hóa mới. FA có thể gặp được 'tình yêu xuyên biên giới'. ✈️❤️",
+            "career": "Cơ hội để học hỏi và phát triển đang ở phía trước. Có thể là một chuyến công tác hoặc một khóa đào tạo ở xa. Hãy nắm bắt nó. 🌍",
+            "health": "Sức khỏe tinh thần thăng hoa khi bạn được tiếp xúc với những điều mới mẻ. Hãy thử một món ăn mới hoặc nghe một thể loại nhạc mới. 🍜🎶",
+            "lucky_number": 19,
+            "advice": "Đừng giới hạn bản thân trong vùng an toàn. Thế giới ngoài kia còn rất nhiều điều để khám phá. 'The world is your oyster'. 🌏"
+        },
+        "day_20": {
+            "date": "2025-07-20",
+            "love": "Hôm nay bạn có thể phải đối mặt với một sự thật không mấy dễ chịu trong tình yêu. Hãy dũng cảm đối mặt và đừng trốn tránh. 🧐",
+            "career": "Công việc có thể bị 'soi' bởi cấp trên. Hãy làm việc một cách cẩn thận và chuyên nghiệp. Đừng để lộ ra bất kỳ sai sót nào. 👀",
+            "health": "Sức khỏe có thể bị ảnh hưởng bởi căng thẳng. Hãy tìm cách thư giãn và đừng quá khắt khe với bản thân. 🧘‍♀️",
+            "lucky_number": 20,
+            "advice": "Sự thật đôi khi mất lòng, nhưng nó sẽ giải thoát bạn. Hãy sống thật với bản thân và với người khác. 'The truth will set you free'. 🕊️"
+        },
+        "day_21": {
+            "date": "2025-07-21",
+            "love": "Tình yêu hôm nay cần sự 'độc đáo' và 'khác biệt'. Hãy làm một điều gì đó bất ngờ cho người ấy. Đừng đi theo lối mòn. 🎁",
+            "career": "Hãy đề xuất những ý tưởng sáng tạo và có phần 'lập dị'. Sự độc đáo của bạn có thể là chìa khóa để giải quyết một vấn đề nan giải. 💡",
+            "health": "Hãy thử một hoạt động thể chất mới lạ, như yoga cười hoặc nhảy zumba. Sự mới mẻ sẽ mang lại niềm vui. 😂",
+            "lucky_number": 21,
+            "advice": "Đừng sợ khác biệt. Chính sự khác biệt làm nên con người bạn. 'Why fit in when you were born to stand out?'. - Dr. Seuss 🌟"
+        },
+        "day_22": {
+            "date": "2025-07-22",
+            "love": "Hôm nay bạn có thể cảm thấy hơi 'mơ mộng' và muốn trốn thoát khỏi thực tại. Tình yêu trong tưởng tượng thì luôn đẹp, nhưng đừng quên sống ở hiện tại nhé. 💭",
+            "career": "Công việc có thể khiến bạn cảm thấy mệt mỏi và muốn 'bỏ trốn'. Hãy cho phép mình được nghỉ ngơi một chút. Một giấc ngủ trưa ngắn sẽ giúp bạn lấy lại tinh thần. 😴",
+            "health": "Sức khỏe tinh thần cần được vỗ về. Hãy nghe nhạc, xem phim, hoặc làm bất cứ điều gì giúp bạn cảm thấy dễ chịu. 🎬",
+            "lucky_number": 22,
+            "advice": "Không sao cả khi bạn cảm thấy mệt mỏi. Hãy lắng nghe cơ thể và tâm trí của bạn. Nghỉ ngơi là để đi xa hơn. 'Rest and be thankful'. 🙏"
+        },
+        "day_23": {
+            "date": "2025-07-23",
+            "love": "Tình yêu hôm nay cần sự 'dũng cảm' và 'quyết đoán'. Nếu bạn muốn điều gì, hãy nói ra. Đừng chờ đợi người khác đọc được suy nghĩ của bạn. 💪",
+            "career": "Hãy chủ động và tiên phong trong công việc. Đừng chờ được giao việc. Sự năng nổ của bạn sẽ được ghi nhận. 🚀",
+            "health": "Năng lượng dồi dào. Đây là thời điểm tốt để bắt đầu một thử thách thể chất mới, như tập gym hoặc chạy marathon. 🏃‍♀️",
+            "lucky_number": 23,
+            "advice": "Số phận nằm trong tay bạn. Hãy là người thuyền trưởng của con tàu đời mình. 'Be the hero of your own story'. 🦸‍♀️"
+        },
+        "day_24": {
+            "date": "2025-07-24",
+            "love": "Hôm nay là ngày để bạn thể hiện sự 'quan tâm' và 'chăm sóc' của mình. Nấu cho người ấy một bữa ăn ngon hoặc mát-xa cho họ. Những hành động nhỏ mang ý nghĩa lớn. 🥰",
+            "career": "Hãy chú ý đến những chi tiết nhỏ trong công việc. Sự cẩn thận và chu đáo của bạn sẽ giúp bạn tránh được những sai lầm không đáng có. ✨",
+            "health": "Hãy chăm sóc cho cơ thể của bạn như một cái cây. Tưới nước (uống đủ nước), bón phân (ăn uống đủ chất), và cho nó tắm nắng (vận động ngoài trời). 🌳",
+            "lucky_number": 24,
+            "advice": "Sự quan tâm chân thành là món quà quý giá nhất. Hãy thể hiện tình yêu thương của bạn bằng hành động. 'Actions speak louder than words'. 💖"
+        },
+        "day_25": {
+            "date": "2025-07-25",
+            "love": "Tình yêu hôm nay cần sự 'vui vẻ' và 'hài hước'. Cùng nhau xem một bộ phim hài hoặc kể cho nhau nghe những câu chuyện cười. Tiếng cười là sợi dây kết nối tuyệt vời. 😂",
+            "career": "Hãy mang lại không khí vui vẻ cho văn phòng. Một thái độ tích cực và lạc quan sẽ giúp mọi người làm việc hiệu quả hơn. 😄",
+            "health": "Tiếng cười là liều thuốc bổ tốt nhất. Hãy tìm kiếm niềm vui trong những điều nhỏ nhặt. Sức khỏe tinh thần của bạn sẽ được cải thiện. 🥳",
+            "lucky_number": 25,
+            "advice": "Đừng quá nghiêm túc với cuộc sống. Hãy học cách cười vào những sai lầm của mình và tận hưởng hành trình. 'A day without laughter is a day wasted'. - Charlie Chaplin 🤣"
+        },
+        "day_26": {
+            "date": "2025-07-26",
+            "love": "Hôm nay bạn có thể cảm thấy hơi 'bất an' và cần sự trấn an từ người ấy. Đừng ngại thể hiện sự yếu đuối của mình. Sự tổn thương cũng là một phần của con người. ❤️‍🩹",
+            "career": "Công việc có thể gặp một vài trở ngại nhỏ khiến bạn mất tự tin. Đừng lo lắng, hãy tin vào khả năng của mình và nhờ sự giúp đỡ nếu cần. 🙏",
+            "health": "Sức khỏe tinh thần hơi 'mong manh'. Hãy đối xử tốt với bản thân. Một cái ôm ấm áp từ người thân sẽ giúp bạn cảm thấy tốt hơn. 🤗",
+            "lucky_number": 26,
+            "advice": "Thể hiện sự yếu đuối không phải là yếu đuối, đó là sức mạnh. Hãy cho phép mình được không hoàn hảo. 'Vulnerability is not weakness'. - Brené Brown 💪"
+        },
+        "day_27": {
+            "date": "2025-07-27",
+            "love": "Tình yêu hôm nay cần sự 'tin tưởng' và 'thành thật'. Hãy chia sẻ những bí mật và nỗi sợ của bạn với người ấy. Sự tin tưởng sẽ làm mối quan hệ thêm sâu sắc. 🤫❤️",
+            "career": "Hãy xây dựng lòng tin với đồng nghiệp và cấp trên. Luôn giữ lời hứa và hành động một cách chính trực. Uy tín là tài sản quý giá nhất. 🤝",
+            "health": "Hãy thành thật với bản thân về tình trạng sức khỏe của mình. Đừng phớt lờ những dấu hiệu cảnh báo của cơ thể. 🩺",
+            "lucky_number": 27,
+            "advice": "Lòng tin khó xây dựng nhưng rất dễ đánh mất. Hãy trân trọng và bảo vệ nó. 'Trust is the glue of life'. - Stephen Covey ✨"
+        },
+        "day_28": {
+            "date": "2025-07-28",
+            "love": "Hôm nay bạn có thể cảm thấy hơi 'mâu thuẫn' trong tình yêu. Một phần bạn muốn ổn định, một phần lại muốn tự do. Hãy tìm kiếm sự cân bằng. ⚖️",
+            "career": "Công việc có thể đòi hỏi bạn phải đưa ra một lựa chọn khó khăn. Hãy cân nhắc kỹ lưỡng các ưu và nhược điểm. Đừng để cảm xúc chi phối. 🧐",
+            "health": "Sức khỏe tinh thần có thể hơi 'bất ổn'. Hãy thử các bài tập hít thở sâu để giữ bình tĩnh và cân bằng. 🧘‍♀️",
+            "lucky_number": 28,
+            "advice": "Cuộc sống luôn đầy rẫy những mâu thuẫn. Hãy học cách chấp nhận và sống chung với chúng. Sự cân bằng đến từ việc dung hòa các mặt đối lập. ☯️"
+        },
+        "day_29": {
+            "date": "2025-07-29",
+            "love": "Tình yêu hôm nay mang đến cảm giác 'trọn vẹn' và 'viên mãn'. Bạn cảm thấy hạnh phúc và biết ơn vì những gì mình đang có. 🥰",
+            "career": "Bạn đạt được một mục tiêu quan trọng trong công việc. Cảm giác thành tựu và hài lòng ngập tràn. Hãy tận hưởng khoảnh khắc này. 🏆",
+            "health": "Sức khỏe thể chất và tinh thần đều ở trạng thái tốt nhất. Bạn cảm thấy tràn đầy năng lượng và yêu đời. ✨",
+            "lucky_number": 29,
+            "advice": "Hạnh phúc không phải là đích đến, mà là hành trình. Hãy trân trọng từng khoảnh khắc và biết ơn những gì cuộc sống ban tặng. 'Gratitude turns what we have into enough'. 🙏"
+        },
+        "day_30": {
+            "date": "2025-07-30",
+            "love": "Hôm nay là ngày để 'cho đi' và 'phục vụ'. Hãy làm một điều gì đó tốt đẹp cho người ấy hoặc cho cộng đồng. Tình yêu là hành động. ❤️",
+            "career": "Hãy giúp đỡ đồng nghiệp hoặc tham gia vào một dự án tình nguyện. Sự cống hiến của bạn sẽ mang lại ý nghĩa và niềm vui. 🤗",
+            "health": "Sức khỏe tinh thần được nuôi dưỡng bằng lòng vị tha. Cho đi là cách tốt nhất để nhận lại. 😊",
+            "lucky_number": 30,
+            "advice": "Mục đích của cuộc sống không phải là để hạnh phúc. Nó là để trở nên hữu ích, để trở nên danh dự, để trở nên nhân ái, để tạo ra sự khác biệt rằng bạn đã sống và sống tốt. - Ralph Waldo Emerson 💖"
+        },
+        "day_31": {
+            "date": "2025-07-31",
+            "love": "Ngày cuối tháng, hãy cùng người ấy nhìn lại những gì đã đạt được và đặt ra những mục tiêu mới. Tình yêu của hai bạn là một công trình cần được xây dựng mỗi ngày. 🏗️❤️",
+            "career": "Tổng kết lại công việc trong tháng. Bạn đã học được nhiều bài học quý giá. Hãy chuẩn bị cho những thử thách và cơ hội mới. 💪",
+            "health": "Sức khỏe ổn định. Bạn đã xây dựng được những thói quen tốt. Hãy tiếp tục duy trì chúng. 🍎",
+            "lucky_number": 31,
+            "advice": "Cuộc sống là một quá trình xây dựng không ngừng. Hãy luôn cố gắng để trở thành phiên bản tốt hơn của chính mình mỗi ngày. 'The future belongs to those who believe in the beauty of their dreams'. - Eleanor Roosevelt 🌅"
+        }
+    }
+}

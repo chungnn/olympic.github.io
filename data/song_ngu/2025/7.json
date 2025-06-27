@@ -13,7 +13,7 @@
         "day_2": {
             "date": "2025-07-02",
             "love": "Hôm nay bạn có thể cảm thấy hơi 'mông lung' và dễ bị tổn thương trong tình yêu. 😢 Đừng quá lý tưởng hóa người ấy. Hãy nhìn vào thực tế. FA thì cẩn thận bị 'lừa tình' bởi những lời nói ngọt ngào. 🤫",
-            "career": "Công việc có thể có vài điều không rõ ràng khiến bạn khó xử. Đừng ngại hỏi lại cho rõ. Cẩn thận với những lời hứa hẹn 'hão'. 🧐",
+            "career": "Công việc có thể có vài điều không rõ ràng khiến bạn khó xử. Đừng ngại hỏi lại cho rõ. Cẩn thận với những lời hứa hẹn 'hao'. 🧐",
             "health": "Sức khỏe tinh thần hơi 'mong manh'. Tránh xa những bộ phim buồn và những người tiêu cực. Hãy tìm đến những gì mang lại cho bạn cảm giác bình yên. 🙏",
             "lucky_number": 12,
             "advice": "Đừng để người khác lợi dụng lòng tốt và sự cả tin của bạn. Hãy học cách nói 'không' khi cần thiết. Bảo vệ năng lượng của mình là rất quan trọng. 🛡️"
@@ -41,6 +41,214 @@
             "health": "Hãy đi bơi hoặc đi dạo gần hồ nước, sông, hoặc biển. Nước sẽ giúp bạn thanh lọc năng lượng và cảm thấy bình yên. 💧",
             "lucky_number": 11,
             "advice": "Hãy để cho dòng chảy của cuộc sống cuốn bạn đi. Đừng cố gắng kiểm soát mọi thứ. Hãy tin tưởng vào vũ trụ. 'Let go and let God'. 🙏✨"
+        },
+        "day_6": {
+            "date": "2025-07-06",
+            "love": "Chủ nhật 'chill' trong thế giới riêng. Cùng người ấy xem lại một bộ phim cũ, nghe một album nhạc 'deep'. Tình yêu là sự đồng điệu về tâm hồn. 🎶❤️ FA thì hãy tận hưởng sự cô đơn, viết lách, vẽ vời, làm thơ. 🎨",
+            "career": "Hôm nay không có trong từ điển hai từ 'công việc'. Hãy để cho tâm trí được nghỉ ngơi hoàn toàn. 😴",
+            "health": "Tâm hồn bạn cần được 'sạc pin'. Ngủ một giấc thật sâu, thiền, hoặc viết nhật ký. Hãy ở một mình và lắng nghe chính mình. 🧘‍♀️",
+            "lucky_number": 6,
+            "advice": "Sự cô đơn không đáng sợ. Đôi khi đó là lúc ta nghe rõ nhất tiếng lòng mình. 'Solitude is creativity's best friend'. 💖"
+        },
+        "day_7": {
+            "date": "2025-07-07",
+            "love": "Tuần mới bắt đầu với năng lượng của sự chữa lành. Hãy tha thứ cho những lỗi lầm của người ấy và của chính mình. Tình yêu cần sự bao dung. 🙏❤️ FA thì hãy 'chữa lành' cho trái tim mình trước khi bắt đầu một mối quan hệ mới. 💖",
+            "career": "Công việc có thể gặp một vài trở ngại. Hãy nhìn nhận nó như một bài học. Lòng trắc ẩn sẽ giúp bạn vượt qua. 💪",
+            "health": "Hãy 'detox' tâm hồn bằng cách tránh xa những thông tin tiêu cực. Nghe nhạc tần số cao hoặc xem những video về thiên nhiên. 🌳",
+            "lucky_number": 7,
+            "advice": "Tha thứ là món quà bạn dành cho chính mình. Hãy buông bỏ để được nhẹ nhàng. 'Forgiveness is not something we do for other people. We do it for ourselves'. ❤️"
+        },
+        "day_8": {
+            "date": "2025-07-08",
+            "love": "Hôm nay bạn có xu hướng 'hy sinh' quá nhiều cho người khác. Hãy nhớ yêu thương bản thân mình trước. Tình yêu cân bằng là khi cả hai cùng cho đi và nhận lại. ⚖️ FA thì đừng quá 'lụy' crush. 😉",
+            "career": "Công việc có thể khiến bạn cảm thấy 'cạn kiệt' năng lượng. Hãy học cách đặt ra ranh giới và nói 'không' với những yêu cầu vô lý. 🛡️",
+            "health": "Cẩn thận bị mất năng lượng. Hãy bảo vệ 'vùng hào quang' của bạn. Tránh những nơi đông người và những người hay than vãn. 🙅‍♀️",
+            "lucky_number": 13,
+            "advice": "Bạn không thể rót trà từ một ấm trà rỗng. Hãy chăm sóc cho bản thân mình trước khi chăm sóc cho người khác. 'Self-care isn't selfish'. 🙏"
+        },
+        "day_9": {
+            "date": "2025-07-09",
+            "love": "Tình yêu cần sự 'phiêu lưu' và mở rộng tầm mắt. Cùng người ấy học một điều gì đó mới, hoặc đi đến một nơi chưa từng đến. ✈️❤️ FA thì hãy mở lòng với những người có nền văn hóa khác biệt, biết đâu lại tìm thấy 'chân ái'. 😉",
+            "career": "Sự nghiệp có cơ hội học hỏi và phát triển. Một khóa học, một cuốn sách, hoặc một người thầy sẽ mang đến cho bạn những kiến thức quý giá. 📚",
+            "health": "Hãy thử một món ăn mới từ một nền văn hóa khác. 'Food tour' cũng là một cách 'chữa lành' tâm hồn. 🍜",
+            "lucky_number": 9,
+            "advice": "Hãy luôn giữ cho mình một tinh thần ham học hỏi. Tri thức sẽ mở ra cho bạn những cánh cửa mới. 'Live as if you were to die tomorrow. Learn as if you were to live forever'. ✨"
+        },
+        "day_10": {
+            "date": "2025-07-10",
+            "love": "Hôm nay Song Ngư có thể cảm thấy hơi 'tham vọng' trong tình yêu. Bạn muốn một mối quan hệ 'ra ngô ra khoai'. Hãy chia sẻ mong muốn của mình với người ấy. ❤️ FA thì hãy đặt ra 'tiêu chuẩn' rõ ràng cho người bạn đời tương lai. 📝",
+            "career": "Sự nghiệp có những bước tiến rõ rệt. Hãy đặt ra mục tiêu và kế hoạch cụ thể. Sự chăm chỉ của bạn sẽ được đền đáp. 🏆",
+            "health": "Hãy chăm sóc cho xương khớp của bạn. Bổ sung canxi và tập các bài tập nhẹ nhàng. 💪",
+            "lucky_number": 1,
+            "advice": "Ước mơ mà không có kế hoạch thì chỉ là mơ ước. Hãy biến ước mơ của bạn thành hiện thực. 'A dream written down with a date becomes a goal'. 🎯"
+        },
+        "day_11": {
+            "date": "2025-07-11",
+            "love": "Tình yêu là sự kết nối với bạn bè và cộng đồng. Cùng người ấy tham gia một hoạt động xã hội. Tình yêu sẽ lớn hơn khi được sẻ chia. ❤️🌍 FA thì hãy tìm kiếm tình yêu trong các hội nhóm có cùng sở thích. 🤝",
+            "career": "Công việc đòi hỏi tinh thần đồng đội và khả năng 'networking'. Hãy kết nối với những người có thể giúp đỡ bạn. 🔗",
+            "health": "Sức khỏe tinh thần được cải thiện khi bạn cảm thấy mình thuộc về một nơi nào đó. Hãy dành thời gian cho bạn bè. 👯‍♀️",
+            "lucky_number": 11,
+            "advice": "Hãy tìm 'bộ lạc' của bạn. Những người yêu thương và ủng hộ bạn vô điều kiện. 'Find your tribe. Love them hard'. 💖"
+        },
+        "day_12": {
+            "date": "2025-07-12",
+            "love": "Hôm nay là ngày để 'trốn' khỏi thực tại. Cùng người ấy xem một bộ phim giả tưởng hoặc chơi một trò chơi nhập vai. Tình yêu là cùng nhau xây dựng một thế giới riêng. 🏰❤️ FA thì hãy để cho trí tưởng tượng của mình bay xa. 💭",
+            "career": "Hãy làm việc một cách thầm lặng và tránh xa những 'drama' không cần thiết. Đây là thời gian để bạn ấp ủ những ý tưởng lớn. 🤫",
+            "health": "Hãy cho phép mình được nghỉ ngơi và 'lười biếng'. Một giấc ngủ trưa ngắn sẽ giúp bạn 'sạc' lại năng lượng. 😴",
+            "lucky_number": 22,
+            "advice": "Đôi khi, cách tốt nhất để giải quyết vấn đề là không làm gì cả. Hãy để cho mọi thứ tự diễn ra. 'Sometimes the most productive thing you can do is relax'. 🙏"
+        },
+        "day_13": {
+            "date": "2025-07-13",
+            "love": "Chủ nhật 'bùng nổ' năng lượng. Hãy làm một điều gì đó thật 'điên rồ' và tự phát cùng người ấy. Tình yêu cần sự mới mẻ và bất ngờ. 🔥❤️ FA thì hãy thử một phong cách 'nổi loạn' xem sao. 😉",
+            "career": "Hôm nay là ngày để bắt đầu. Đừng chần chừ nữa. Hãy hành động ngay. 🚀",
+            "health": "Hãy thử một môn thể thao mới hoặc một hoạt động thể chất đầy hứng khởi. Năng lượng tích cực sẽ tuôn trào. 💪",
+            "lucky_number": 1,
+            "advice": "Đừng chờ đợi cơ hội, hãy tạo ra nó. Bạn là người kiến tạo nên cuộc đời mình. 'The best way to predict the future is to create it'. ✨"
+        },
+        "day_14": {
+            "date": "2025-07-14",
+            "love": "Tình yêu hôm nay cần sự 'an toàn' và 'ấm áp'. Hãy tận hưởng những niềm vui giản dị bên người ấy, như cùng nhau nấu ăn, xem TV. 🏡❤️ FA thì hãy chăm sóc cho 'túi tiền' của mình trước đã. 💰",
+            "career": "Tài chính cần được chú ý. Hãy kiên nhẫn và làm việc chăm chỉ, 'quả ngọt' sẽ đến. 🍎",
+            "health": "Hãy ăn những món ăn 'comfort food' mà bạn yêu thích. Đồ ăn ngon cũng là một cách 'chữa lành'. 🍕",
+            "lucky_number": 4,
+            "advice": "Sự ổn định không hề nhàm chán. Nó là nền tảng cho mọi sự phát triển. 'Stability is the foundation of freedom'. 🙏"
+        },
+        "day_15": {
+            "date": "2025-07-15",
+            "love": "Hôm nay Song Ngư 'hoạt ngôn' lạ thường. Hãy chia sẻ những câu chuyện, những ý tưởng của bạn với người ấy. Giao tiếp sẽ mang hai bạn lại gần nhau hơn. 🗣️❤️ FA thì hãy tích cực 'thả thính' bằng sự thông minh và hài hước của mình. 😉",
+            "career": "Công việc đòi hỏi sự linh hoạt và khả năng thích ứng. Hãy sẵn sàng cho những thay đổi bất ngờ. 🏃‍♀️",
+            "health": "Hãy vận động nhẹ nhàng như đi bộ, đạp xe. Không khí trong lành sẽ giúp đầu óc bạn minh mẫn. 🧠",
+            "lucky_number": 5,
+            "advice": "Sự thay đổi là hằng số duy nhất. Hãy học cách 'lướt' trên những con sóng của cuộc đời. 'Life is a series of natural and spontaneous changes'. 🌊"
+        },
+        "day_16": {
+            "date": "2025-07-16",
+            "love": "Tình yêu hôm nay là sự chăm sóc và vỗ về. Hãy ở bên cạnh và lắng nghe người ấy. Một cái ôm còn hơn ngàn lời nói. 🤗❤️ FA thì hãy dành thời gian cho gia đình, nơi bạn luôn cảm thấy được yêu thương. 👨‍👩‍👧‍👦",
+            "career": "Công việc có thể khiến bạn cảm thấy hơi 'tủi thân'. Hãy tìm kiếm sự động viên từ những người bạn tin tưởng. Đừng một mình gánh vác. 🤝",
+            "health": "Hãy chú ý đến cảm xúc của mình. Đừng kìm nén, hãy cho phép mình được yếu đuối. Khóc cũng là một cách 'detox'. 😢",
+            "lucky_number": 2,
+            "advice": "Việc thể hiện sự tổn thương không phải là yếu đuối, đó là sức mạnh. 'Vulnerability is not weakness; it's our greatest measure of courage'. ❤️"
+        },
+        "day_17": {
+            "date": "2025-07-17",
+            "love": "Hôm nay Song Ngư 'tỏa sáng' với sự lạc quan và vui vẻ. Hãy mang lại tiếng cười cho người ấy. Tình yêu là cùng nhau vui đùa như những đứa trẻ. 😄❤️ FA thì hãy thể hiện sự hài hước của mình, đó là 'vũ khí' quyến rũ nhất. ✨",
+            "career": "Sự sáng tạo của bạn được 'kích hoạt'. Hãy dùng nó để giải quyết các vấn đề trong công việc một cách 'bất ngờ'. 💡",
+            "health": "Hãy làm những điều khiến bạn vui. Chơi game, xem phim hoạt hình, hoặc ăn một cây kem. Niềm vui là liều thuốc bổ. 🍦",
+            "lucky_number": 3,
+            "advice": "Đừng bao giờ đánh mất đứa trẻ bên trong bạn. 'Never lose your inner child'. 💖"
+        },
+        "day_18": {
+            "date": "2025-07-18",
+            "love": "Tình yêu cần sự 'tinh tế' và 'chi tiết'. Hãy để ý đến những điều nhỏ nhặt mà người ấy thích. Một hành động quan tâm nhỏ có thể mang lại hạnh phúc lớn. 🥰 FA thì hãy chăm sóc cho bản thân mình một cách tỉ mỉ. 💅",
+            "career": "Công việc đòi hỏi sự cẩn thận và ngăn nắp. Hãy sắp xếp lại bàn làm việc và lên danh sách những việc cần làm. 📝",
+            "health": "Hãy chú ý đến chế độ ăn uống của bạn. Ăn sạch, uống sạch để có một cơ thể khỏe mạnh từ bên trong. 🥗",
+            "lucky_number": 6,
+            "advice": "Hạnh phúc được tạo nên từ những điều nhỏ bé. Hãy trân trọng từng khoảnh khắc. 'Enjoy the little things in life, for one day you may look back and realize they were the big things'. 🙏"
+        },
+        "day_19": {
+            "date": "2025-07-19",
+            "love": "Hôm nay là ngày của 'sự cân bằng'. Tình yêu cần sự hài hòa giữa cho và nhận, giữa cá nhân và cặp đôi. Hãy tìm kiếm điểm chung và tôn trọng sự khác biệt. ⚖️❤️ FA thì hãy cân bằng giữa trái tim và lý trí. 🤔",
+            "career": "Công việc đòi hỏi khả năng đàm phán và ngoại giao. Hãy tìm kiếm một giải pháp 'win-win' cho tất cả mọi người. 🤝",
+            "health": "Hãy tìm kiếm sự cân bằng trong cuộc sống. Đừng để công việc hay tình yêu chiếm hết thời gian của bạn. Hãy dành thời gian cho bản thân. 🧘‍♀️",
+            "lucky_number": 2,
+            "advice": "Sự cân bằng là chìa khóa của một cuộc sống hạnh phúc. 'Life is a balance of holding on and letting go'. 🙏"
+        },
+        "day_20": {
+            "date": "2025-07-20",
+            "love": "Chủ nhật 'sâu lắng'. Cùng người ấy khám phá những bí ẩn của tâm hồn. Một buổi xem bài tarot hoặc chiêm tinh sẽ rất thú vị. 🔮❤️ FA có thể bị thu hút bởi một người có chiều sâu và bí ẩn. 😉",
+            "career": "Hãy tin vào trực giác của bạn. Nó sẽ mách bảo cho bạn những quyết định đúng đắn. Đừng bỏ qua những linh cảm của mình. ✨",
+            "health": "Hãy 'dọn dẹp' những năng lượng tiêu cực. Thiền, đốt trầm hương, hoặc nghe nhạc chữa lành. 🧘‍♀️",
+            "lucky_number": 8,
+            "advice": "Không phải mọi thứ đều có thể giải thích bằng logic. Hãy tin vào những điều vô hình. 'The invisible world is the real world'. 🙏"
+        },
+        "day_21": {
+            "date": "2025-07-21",
+            "love": "Hôm nay Song Ngư muốn 'mở mang' và 'khám phá'. Cùng người ấy đi đến một nơi có tầm nhìn rộng lớn, như đỉnh núi hoặc sân thượng. Tình yêu là cùng nhau nhìn về một hướng. 🌅❤️ FA thì hãy mở rộng vòng tròn xã hội của mình. 🌍",
+            "career": "Hãy nhìn vào 'bức tranh lớn' của sự nghiệp. Đừng bị sa đà vào những chi tiết vụn vặt. Tầm nhìn xa sẽ giúp bạn đi đúng hướng. 🔭",
+            "health": "Hãy ra ngoài và hít thở không khí trong lành. Thiên nhiên sẽ giúp bạn cảm thấy tự do và khoáng đạt. 🌳",
+            "lucky_number": 9,
+            "advice": "Hãy có một tầm nhìn lớn cho cuộc đời mình. 'Your vision will become clear only when you can look into your own heart'. ❤️"
+        },
+        "day_22": {
+            "date": "2025-07-22",
+            "love": "Sau những ngày 'bay bổng', hôm nay là lúc để 'tiếp đất' và tập trung vào trách nhiệm. Hãy thể hiện sự trưởng thành và đáng tin cậy của bạn với người ấy. 💪❤️",
+            "career": "Sự nghiệp đòi hỏi sự kiên trì và kỷ luật. Hãy hoàn thành những công việc nhàm chán nhất một cách xuất sắc. Sự chuyên nghiệp của bạn sẽ được công nhận. 🏆",
+            "health": "Hãy quay lại với những thói quen tốt. Ăn uống đúng giờ, ngủ đủ giấc, tập thể dục đều đặn. Kỷ luật là sức mạnh. 🏋️‍♀️",
+            "lucky_number": 10,
+            "advice": "Thành công được xây dựng trên nền tảng của sự kỷ luật. 'Discipline is the bridge between goals and accomplishment'. 🌉"
+        },
+        "day_23": {
+            "date": "2025-07-23",
+            "love": "Mặt trời đã sang nhà Sư Tử, Song Ngư cũng cảm thấy 'tự tin' và muốn được 'tỏa sáng'. Hãy thể hiện tình yêu một cách nồng nhiệt và 'drama' một chút. 🔥❤️ FA thì hãy 'lên đồ' và đi 'quẩy', bạn xứng đáng được chú ý. ✨",
+            "career": "Công việc cần bạn thể hiện khả năng sáng tạo và trình diễn của mình. Đừng ngại trở thành tâm điểm. 🎤",
+            "health": "Hãy chăm sóc cho trái tim của bạn. Cả về thể chất lẫn tinh thần. Hãy làm những điều khiến trái tim bạn 'hát ca'. ❤️🎶",
+            "lucky_number": 11,
+            "advice": "Hãy để cho ánh sáng bên trong bạn được tỏa sáng rực rỡ. 'Let your light shine so brightly that others can see their way out of the dark'. ✨"
+        },
+        "day_24": {
+            "date": "2025-07-24",
+            "love": "Hôm nay là ngày để 'chữa lành' những tổn thương liên quan đến bạn bè hoặc cộng đồng. Hãy kết nối lại với những người bạn cũ. Tình bạn cũng cần được vun đắp. 💖",
+            "career": "Công việc có thể gặp một vài vấn đề liên quan đến team. Hãy là người hòa giải và kết nối mọi người lại với nhau. 🤝",
+            "health": "Hãy dành thời gian cho những người bạn thân. Sự chia sẻ và thấu hiểu sẽ giúp bạn cảm thấy tốt hơn. 👯‍♀️",
+            "lucky_number": 12,
+            "advice": "Tình bạn là một trong những tài sản quý giá nhất. Hãy trân trọng những người bạn thật sự của mình. 'A friend is someone who knows all about you and still loves you'. ❤️"
+        },
+        "day_25": {
+            "date": "2025-07-25",
+            "love": "Hôm nay Song Ngư 'comeback' với năng lượng của sự khởi đầu. Hãy chủ động và quyết đoán trong tình yêu. Nếu bạn muốn một điều gì đó, hãy nói ra. 💪❤️",
+            "career": "Đây là thời điểm tuyệt vời để bắt đầu một dự án mới hoặc một công việc mới. Năng lượng của bạn đang ở đỉnh cao. 🚀",
+            "health": "Hãy thử một loại hình vận động mới. Sự thay đổi sẽ mang lại cho bạn nguồn cảm hứng mới. 🤸‍♀️",
+            "lucky_number": 1,
+            "advice": "Bạn là người duy nhất có thể kiểm soát cuộc đời mình. Hãy nắm lấy bánh lái và tiến về phía trước. 'You are the CEO of your life'. 👑"
+        },
+        "day_26": {
+            "date": "2025-07-26",
+            "love": "Cuối tuần hãy 'nuông chiều' bản thân và người ấy. Một bữa ăn sang trọng, một món quà đắt tiền. Tình yêu cũng cần sự 'xa xỉ' để thêm phần thú vị. 💎❤️ FA thì hãy tự thưởng cho mình, bạn đã làm việc rất vất vả. 💖",
+            "career": "Tài chính có dấu hiệu 'khởi sắc'. Hãy tận hưởng thành quả của mình. 'Work hard, play harder'. 🎉",
+            "health": "Hãy chăm sóc cho cơ thể của bạn bằng những liệu pháp tốt nhất. Massage, spa, hoặc một chuyến du lịch nghỉ dưỡng. 💆‍♀️",
+            "lucky_number": 8,
+            "advice": "Bạn xứng đáng với những điều tốt đẹp nhất. Hãy tin vào giá trị của bản thân. 'You are worthy of all the good things life has to offer'. ✨"
+        },
+        "day_27": {
+            "date": "2025-07-27",
+            "love": "Chủ nhật 'thông thái'. Cùng người ấy đọc sách, thảo luận về một chủ đề triết học. Tình yêu là sự phát triển cùng nhau về mặt trí tuệ. 🧠❤️ FA thì hãy 'nâng cấp' bản thân bằng tri thức. 😉",
+            "career": "Hãy lên kế hoạch cho tương lai xa hơn. Bạn muốn đạt được điều gì trong 5 năm tới? Hãy có một tầm nhìn rõ ràng. 🔭",
+            "health": "Não cũng cần được 'nghỉ ngơi'. Hãy thử thiền 'không suy nghĩ' hoặc đi dạo trong im lặng. 🤫",
+            "lucky_number": 9,
+            "advice": "Tri thức là sức mạnh. Nhưng sự thông thái mới là tự do. 'Knowledge is power, but wisdom is freedom'. 🙏"
+        },
+        "day_28": {
+            "date": "2025-07-28",
+            "love": "Hôm nay Song Ngư là 'sếp' trong tình yêu. Hãy thể hiện sự tự tin và bản lĩnh của mình. Người ấy sẽ bị 'hút hồn' bởi sự mạnh mẽ của bạn. 😎❤️",
+            "career": "Sự nghiệp có những bước tiến lớn. Vị thế của bạn được khẳng định. Hãy tự tin vào khả năng lãnh đạo của mình. 👑",
+            "health": "Hãy chăm sóc cho cột sống của bạn. Đứng thẳng, ngồi thẳng để thể hiện sự tự tin. 💪",
+            "lucky_number": 10,
+            "advice": "Hãy là người hùng trong câu chuyện của chính mình. 'Be the hero of your own story'. 🦸‍♀️"
+        },
+        "day_29": {
+            "date": "2025-07-29",
+            "love": "Tình yêu là sự 'cho đi' và 'cống hiến'. Cùng người ấy làm một việc tốt cho cộng đồng. Tình yêu sẽ trở nên vĩ đại hơn khi nó không chỉ dành cho hai người. ❤️🌍",
+            "career": "Công việc có cơ hội mang lại giá trị cho xã hội. Hãy nghĩ về 'sứ mệnh' của bạn. 🤔",
+            "health": "Sức khỏe tinh thần được cải thiện khi bạn giúp đỡ người khác. Lòng tốt là liều thuốc bổ. 🥰",
+            "lucky_number": 11,
+            "advice": "Hạnh phúc lớn nhất là được sống vì một điều gì đó lớn hơn bản thân mình. 'The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well'. 🙏"
+        },
+        "day_30": {
+            "date": "2025-07-30",
+            "love": "Hôm nay là ngày để 'buông bỏ' những ảo mộng. Hãy nhìn vào tình yêu một cách thực tế. Tình yêu không phải lúc nào cũng màu hồng, nhưng nó vẫn đẹp. ❤️ FA thì hãy 'tạm biệt' những hình mẫu không có thật. 😉",
+            "career": "Hãy hoàn thành những dự án cũ để chuẩn bị cho một chương mới. 'Dọn dẹp' quá khứ để chào đón tương lai. 🧹",
+            "health": "Hãy 'giải phóng' bản thân khỏi những gánh nặng tinh thần. Tha thứ cho chính mình và cho người khác. 🕊️",
+            "lucky_number": 12,
+            "advice": "Sự thật có thể làm bạn đau, nhưng nó sẽ giải thoát bạn. 'The truth will set you free'. ✨"
+        },
+        "day_31": {
+            "date": "2025-07-31",
+            "love": "Khép lại tháng 7 với một trái tim đầy 'yêu thương' và 'biết ơn'. Hãy cảm ơn người ấy vì đã luôn ở bên cạnh. ❤️ FA thì hãy biết ơn cuộc sống vì đã cho bạn những trải nghiệm quý giá. 💖",
+            "career": "Tổng kết lại những gì bạn đã học được trong tháng qua. Mỗi trải nghiệm đều là một bài học. 📝",
+            "health": "Hãy viết ra 10 điều bạn biết ơn trong cuộc sống. Lòng biết ơn sẽ mang lại cho bạn cảm giác bình yên và hạnh phúc. 🙏",
+            "lucky_number": 7,
+            "advice": "Lòng biết ơn là thái độ tốt nhất. 'Gratitude is the best attitude'. 💖"
         }
     }
 }
